@@ -1,4 +1,4 @@
-/*This is my 318 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+v/*This is my 318 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
 
 
 
@@ -60,25 +60,24 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks.jpg)
+  background: url(images/trees.jpg)
 		center center fixed no-repeat;
 		background-size: cover;
 	
 }
 
 .center {
-    width: 800px;
+    width: 400px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(244, 230, 195, 0.83); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
+	
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
 	text-align: center;
 }
 
@@ -103,18 +102,28 @@ h2 {
 }
 
 p {
-	font-family: garamond, serif;		
+	font-family: new-order, sans-serif;
+    font-weight: 300;
+    font-style: normal;		
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: #466249;
 }
-
+ 
+p2 { 
+    font-family: new-order, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #466249;
+}
 nav{
-	font-family: garamond;
-	font-size: 1.2em;
+	font-family: new-order, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+	font-size: .9em;
 	width: 400px;
 	margin: 0 auto;
-	border: dashed turquoise;
+	border: solid #466249;
 	border-width: 3px 0;
 	text-align: center;
 	margin-top: 2em;
@@ -128,13 +137,14 @@ nav a{
 	}
 
 a{
-	color:#444;
+	color:#466249;
 	text-decoration: none;
 	font-weight: bold;
 	}
 a:hover{
-	color: black;
-	background: pink;
+	color: rgba(244, 230, 195, 0.83);
+	background: #466249;
+    width: 380px; 
 	}
 
 
