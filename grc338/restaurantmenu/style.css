@@ -17,8 +17,8 @@ body {
 h1 {
 	background-color: rgb(160,156,164);
 	color:rgb(239,239,239); /* Same as body background. */
-	font-size: 20pt;
-	padding: 1em 1em 2em; /* You want three values. */
+	font-size: 50pt;
+	padding: 1em 1em 0em; /* You want three values. */
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -27,33 +27,33 @@ h1 {
 h2 {
 	background-color: rgb(160,156,164);
 	color: rgb(239,239,239);
-	font-size: 15pt;
-	padding: 1em 1em 1.5em;
+	font-size: 40pt;
+	padding: .25em 1.25em 0.5em;
 	font-family: serif;
 	font-weight: bold;
 }
 
 h3 {
-	margin: ____ ____ ____; /*Three values again. You got the idea.*/
-	padding-top: _______;
-	font-size: _______;
+	margin: 3em 2em 2em; /*Three values again. You got the idea.*/
+	padding-top: 1 em;
+	font-size: 25pt;
 	color: rgb(176,61,54);
-	font-weight: _______;
-	text-transform: _______;
-	letter-spacing: ____; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
-	border-top: ____ ____ ____;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1 em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+	border-top: rgb(176,61,54);
 }
 
 h4 {
-	font-weight: _______;
+	font-weight: bold;
 }
 
 p.description {
-	font-style: _______;
+	font-style: italic;
 }
 
 p.price {
-	color: _______;
+	color: rgb(176,61,54);
 }
 
 ul {
@@ -61,6 +61,6 @@ ul {
 }
 
 li { 
-	margin: ____ ____;
-	list-style-type: ____;
+	margin: 1em 1em;
+	list-style-type: none;
 }
