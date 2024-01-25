@@ -40,7 +40,7 @@ h3 {
 	color: rgb(176,61,54);
 	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: 0.4 em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+	letter-spacing: 1 em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
 	border-top: 2.5px solid rgb(176,61,54);
 }
 
@@ -57,7 +57,7 @@ p.price {
 }
 
 ul {
-	margin: 0em 3 em 0em;
+	margin: 0em 5 em 0em;
 }
 
 li { 
